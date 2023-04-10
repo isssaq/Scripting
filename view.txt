@@ -1,0 +1,54 @@
+The node is romanpavlyshyn-VirtualBox
+
+Kernel: Linux
+Version: #76~20.04.1-Ubuntu SMP Mon Mar 20 15:54:19 UTC 2023
+Kernel release: 5.15.0-69-generic
+Platform: x86_64
+
+IP address:
+ inet 10.0.2.15 netmask 255.255.255.0 broadcast 10.0.2.255
+Interfaces:
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    RX: bytes  packets  errors  dropped overrun mcast   
+    29648      310      0       0       0       0       
+    TX: bytes  packets  errors  dropped carrier collsns 
+    29648      310      0       0       0       0       
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+    link/ether 08:00:27:04:29:2a brd ff:ff:ff:ff:ff:ff
+    RX: bytes  packets  errors  dropped overrun mcast   
+    8951096    11029    0       0       0       0       
+    TX: bytes  packets  errors  dropped carrier collsns 
+    1279963    7213     0       0       0       0       
+
+Firewall info
+Status: inactive
+
+Disabled settings ICMP, IP configuration: /etc/sysctl.conf
+ICMP:
+# Do not accept ICMP redirects (prevent MITM attacks)
+#net.ipv4.conf.all.accept_redirects = 0
+#net.ipv6.conf.all.accept_redirects = 0
+--
+# Accept ICMP redirects only for gateways listed in our default
+# gateway list (enabled by default)
+# net.ipv4.conf.all.secure_redirects = 1
+--
+# Do not send ICMP redirects (we are not a router)
+#net.ipv4.conf.all.send_redirects = 0
+#
+# Uncomment the next line to enable TCP/IP SYN cookies
+# See http://lwn.net/Articles/277146/
+# Note: This may impact IPv6 TCP sessions too
+#net.ipv4.tcp_syncookies=1
+
+# Uncomment the next line to enable packet forwarding for IPv4
+#net.ipv4.ip_forward=1
+
+# Uncomment the next line to enable packet forwarding for IPv6
+#  Enabling this option disables Stateless Address Autoconfiguration
+#  based on Router Advertisements for this host
+--
+# Do not accept IP source route packets (we are not a router)
+#net.ipv4.conf.all.accept_source_route = 0
+#net.ipv6.conf.all.accept_source_route = 0
