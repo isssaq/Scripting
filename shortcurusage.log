@@ -1,0 +1,46 @@
+Uptime:
+2023-04-10 13:36:13
+Current user:
+romanpavlyshyn
+# users=1
+Last login
+romanpavlyshyn :0           2023-04-10 13:37   ?          1273 (:0)
+
+Usage CPU
+%CPU   PID   USER       TID
+ 0.0    4038 romanpa+    4038
+ 0.0    4039 romanpa+    4039
+ 0.1    3494 root        3494
+ 0.1    3975 root        3975
+ 0.2       1 root           1
+ 0.4    3043 romanpa+    3043
+ 1.6    2246 romanpa+    2246
+ 3.3    1278 romanpa+    1278
+ 3.8    1455 romanpa+    1455
+12.2    2738 romanpa+    2738
+--------------------------
+Swap memory usage: 
+              total        used        free      shared  buff/cache   available
+Mem:        2023476     1157272      157016       15848      709188      700032
+Swap:        742900       32912      709988
+Total:      2766376     1190184      867004
+--------------------------
+Disk usage
+Filesystem      Size  Used Avail Use% Mounted on
+udev            949M     0  949M   0% /dev
+tmpfs           198M  1,4M  197M   1% /run
+/dev/sda5        15G  9,0G  5,2G  64% /
+tmpfs           989M     0  989M   0% /dev/shm
+tmpfs           5,0M  4,0K  5,0M   1% /run/lock
+tmpfs           989M     0  989M   0% /sys/fs/cgroup
+/dev/loop0      128K  128K     0 100% /snap/bare/5
+/dev/loop1       62M   62M     0 100% /snap/core20/1611
+/dev/loop2       64M   64M     0 100% /snap/core20/1852
+/dev/loop3      347M  347M     0 100% /snap/gnome-3-38-2004/119
+/dev/loop4      350M  350M     0 100% /snap/gnome-3-38-2004/137
+/dev/loop5       92M   92M     0 100% /snap/gtk-common-themes/1535
+/dev/loop6       55M   55M     0 100% /snap/snap-store/558
+/dev/loop7       46M   46M     0 100% /snap/snap-store/638
+/dev/loop8       50M   50M     0 100% /snap/snapd/18596
+/dev/sda1       511M  4,0K  511M   1% /boot/efi
+tmpfs           198M   36K  198M   1% /run/user/1000
